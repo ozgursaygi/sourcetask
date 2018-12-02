@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DCMModelStoreContainer" CdmEntityContainer="CrmEntities">
+    <EntitySetMapping Name="crm_kurumlar">
+      <EntityTypeMapping TypeName="DCMModel.crm_kurumlar">
+        <MappingFragment StoreEntitySet="crm_kurumlar">
+          <ScalarProperty Name="mobile_phone" ColumnName="mobile_phone" />
+          <ScalarProperty Name="deleted_at" ColumnName="deleted_at" />
+          <ScalarProperty Name="deleted_by" ColumnName="deleted_by" />
+          <ScalarProperty Name="updated_at" ColumnName="updated_at" />
+          <ScalarProperty Name="updated_by" ColumnName="updated_by" />
+          <ScalarProperty Name="inserted_at" ColumnName="inserted_at" />
+          <ScalarProperty Name="inserted_by" ColumnName="inserted_by" />
+          <ScalarProperty Name="is_deleted" ColumnName="is_deleted" />
+          <ScalarProperty Name="is_active" ColumnName="is_active" />
+          <ScalarProperty Name="note" ColumnName="note" />
+          <ScalarProperty Name="web_sitesi" ColumnName="web_sitesi" />
+          <ScalarProperty Name="adres" ColumnName="adres" />
+          <ScalarProperty Name="faksi_2" ColumnName="faksi_2" />
+          <ScalarProperty Name="faksi_1" ColumnName="faksi_1" />
+          <ScalarProperty Name="telefonu_2" ColumnName="telefonu_2" />
+          <ScalarProperty Name="telefonu_1" ColumnName="telefonu_1" />
+          <ScalarProperty Name="eposta_adresi" ColumnName="eposta_adresi" />
+          <ScalarProperty Name="calisan_sayisi" ColumnName="calisan_sayisi" />
+          <ScalarProperty Name="kurulus_yili" ColumnName="kurulus_yili" />
+          <ScalarProperty Name="vergi_dairesi" ColumnName="vergi_dairesi" />
+          <ScalarProperty Name="vergi_no" ColumnName="vergi_no" />
+          <ScalarProperty Name="ticari_unvani" ColumnName="ticari_unvani" />
+          <ScalarProperty Name="turu_id" ColumnName="turu_id" />
+          <ScalarProperty Name="kodu" ColumnName="kodu" />
+          <ScalarProperty Name="kurum_id" ColumnName="kurum_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="crm_bireyler">
+      <EntityTypeMapping TypeName="DCMModel.crm_bireyler">
+        <MappingFragment StoreEntitySet="crm_bireyler">
+          <ScalarProperty Name="deleted_at" ColumnName="deleted_at" />
+          <ScalarProperty Name="deleted_by" ColumnName="deleted_by" />
+          <ScalarProperty Name="updated_at" ColumnName="updated_at" />
+          <ScalarProperty Name="updated_by" ColumnName="updated_by" />
+          <ScalarProperty Name="inserted_at" ColumnName="inserted_at" />
+          <ScalarProperty Name="inserted_by" ColumnName="inserted_by" />
+          <ScalarProperty Name="is_deleted" ColumnName="is_deleted" />
+          <ScalarProperty Name="is_active" ColumnName="is_active" />
+          <ScalarProperty Name="note" ColumnName="note" />
+          <ScalarProperty Name="web_sitesi" ColumnName="web_sitesi" />
+          <ScalarProperty Name="adres" ColumnName="adres" />
+          <ScalarProperty Name="faksi_2" ColumnName="faksi_2" />
+          <ScalarProperty Name="faksi_1" ColumnName="faksi_1" />
+          <ScalarProperty Name="telefonu_2" ColumnName="telefonu_2" />
+          <ScalarProperty Name="telefonu_1" ColumnName="telefonu_1" />
+          <ScalarProperty Name="mobile_phone" ColumnName="mobile_phone" />
+          <ScalarProperty Name="eposta_adresi" ColumnName="eposta_adresi" />
+          <ScalarProperty Name="turu_id" ColumnName="turu_id" />
+          <ScalarProperty Name="soyad" ColumnName="soyad" />
+          <ScalarProperty Name="ad" ColumnName="ad" />
+          <ScalarProperty Name="calistigi_kurum_id" ColumnName="calistigi_kurum_id" />
+          <ScalarProperty Name="birey_id" ColumnName="birey_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ref_crm_project_types">
+      <EntityTypeMapping TypeName="DCMModel.ref_crm_project_types">
+        <MappingFragment StoreEntitySet="ref_crm_project_types">
+          <ScalarProperty Name="project_type_name" ColumnName="project_type_name" />
+          <ScalarProperty Name="project_type_id" ColumnName="project_type_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="crm_bireyler_kurumlar_v">
+      <EntityTypeMapping TypeName="DCMModel.crm_bireyler_kurumlar_v">
+        <MappingFragment StoreEntitySet="crm_bireyler_kurumlar_v">
+          <ScalarProperty Name="is_active" ColumnName="is_active" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="crm_projects">
+      <EntityTypeMapping TypeName="DCMModel.crm_projects">
+        <MappingFragment StoreEntitySet="crm_projects">
+          <ScalarProperty Name="metre_kare" ColumnName="metre_kare" />
+          <ScalarProperty Name="isveren_mobile_phone" ColumnName="isveren_mobile_phone" />
+          <ScalarProperty Name="yapı_denetimi" ColumnName="yapı_denetimi" />
+          <ScalarProperty Name="harita" ColumnName="harita" />
+          <ScalarProperty Name="mekanik" ColumnName="mekanik" />
+          <ScalarProperty Name="elektrik" ColumnName="elektrik" />
+          <ScalarProperty Name="statik" ColumnName="statik" />
+          <ScalarProperty Name="deleted_at" ColumnName="deleted_at" />
+          <ScalarProperty Name="deleted_by" ColumnName="deleted_by" />
+          <ScalarProperty Name="updated_at" ColumnName="updated_at" />
+          <ScalarProperty Name="updated_by" ColumnName="updated_by" />
+          <ScalarProperty Name="inserted_at" ColumnName="inserted_at" />
+          <ScalarProperty Name="inserted_by" ColumnName="inserted_by" />
+          <ScalarProperty Name="is_deleted" ColumnName="is_deleted" />
+          <ScalarProperty Name="is_active" ColumnName="is_active" />
+          <ScalarProperty Name="note" ColumnName="note" />
+          <ScalarProperty Name="project_description" ColumnName="project_description" />
+          <ScalarProperty Name="project_name" ColumnName="project_name" />
+          <ScalarProperty Name="project_assigned_user_id" ColumnName="project_assigned_user_id" />
+          <ScalarProperty Name="project_type_id" ColumnName="project_type_id" />
+          <ScalarProperty Name="birey_id" ColumnName="birey_id" />
+          <ScalarProperty Name="kurum_id" ColumnName="kurum_id" />
+          <ScalarProperty Name="project_id" ColumnName="project_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

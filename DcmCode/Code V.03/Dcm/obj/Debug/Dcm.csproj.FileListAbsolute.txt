@@ -1,0 +1,202 @@
+C:\WebApps\DCM\Dcm\Dcm\bin\Dcm.dll.config
+C:\WebApps\DCM\Dcm\Dcm\bin\Dcm.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\Dcm.pdb
+C:\WebApps\DCM\Dcm\Dcm\bin\Antlr3.Runtime.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\BaseClasses.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\BaseDB.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\EntityFramework.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\EntityFramework.SqlServer.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\Google.Apis.Auth.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\Google.Apis.Auth.PlatformServices.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\Google.Apis.Core.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\Google.Apis.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\Google.Apis.Drive.v2.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\Google.Apis.PlatformServices.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\log4net.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\Microsoft.AspNet.Identity.Core.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\Microsoft.Owin.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\Microsoft.Owin.Security.Cookies.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\Microsoft.Owin.Security.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\Microsoft.Owin.Security.Facebook.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\Microsoft.Owin.Security.Google.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\Microsoft.Owin.Security.OAuth.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\Microsoft.Owin.Security.Twitter.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\Microsoft.ReportViewer.WebForms.DLL
+C:\WebApps\DCM\Dcm\Dcm\bin\Microsoft.Threading.Tasks.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\Microsoft.Threading.Tasks.Extensions.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\Microsoft.Web.Infrastructure.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\Newtonsoft.Json.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\Owin.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\ReportViewerForMvc.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\System.Net.Http.Extensions.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\System.Net.Http.Formatting.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\System.Net.Http.Primitives.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\System.Web.Helpers.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\System.Web.Http.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\System.Web.Http.WebHost.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\System.Web.Mvc.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\System.Web.Optimization.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\System.Web.Razor.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\System.Web.WebPages.Deployment.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\System.Web.WebPages.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\System.Web.WebPages.Razor.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\WebGrease.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\Zlib.Portable.dll
+C:\WebApps\DCM\Dcm\Dcm\bin\BaseClasses.pdb
+C:\WebApps\DCM\Dcm\Dcm\bin\BaseDB.pdb
+C:\WebApps\DCM\Dcm\Dcm\bin\Google.Apis.pdb
+C:\WebApps\DCM\Dcm\Dcm\bin\Google.Apis.xml
+C:\WebApps\DCM\Dcm\Dcm\bin\Google.Apis.Auth.pdb
+C:\WebApps\DCM\Dcm\Dcm\bin\Google.Apis.Auth.xml
+C:\WebApps\DCM\Dcm\Dcm\bin\Google.Apis.Auth.PlatformServices.pdb
+C:\WebApps\DCM\Dcm\Dcm\bin\Google.Apis.Auth.PlatformServices.xml
+C:\WebApps\DCM\Dcm\Dcm\bin\Google.Apis.Core.pdb
+C:\WebApps\DCM\Dcm\Dcm\bin\Google.Apis.Core.xml
+C:\WebApps\DCM\Dcm\Dcm\bin\Google.Apis.Drive.v2.pdb
+C:\WebApps\DCM\Dcm\Dcm\bin\Google.Apis.Drive.v2.xml
+C:\WebApps\DCM\Dcm\Dcm\bin\Google.Apis.PlatformServices.pdb
+C:\WebApps\DCM\Dcm\Dcm\bin\Google.Apis.PlatformServices.xml
+C:\WebApps\DCM\Dcm\Dcm\bin\log4net.xml
+C:\WebApps\DCM\Dcm\Dcm\bin\Microsoft.Threading.Tasks.xml
+C:\WebApps\DCM\Dcm\Dcm\bin\Microsoft.Threading.Tasks.Extensions.xml
+C:\WebApps\DCM\Dcm\Dcm\bin\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\WebApps\DCM\Dcm\Dcm\bin\Newtonsoft.Json.xml
+C:\WebApps\DCM\Dcm\Dcm\bin\System.Net.Http.Extensions.xml
+C:\WebApps\DCM\Dcm\Dcm\bin\System.Net.Http.Primitives.xml
+C:\WebApps\DCM\Dcm\Dcm\bin\System.Web.Helpers.xml
+C:\WebApps\DCM\Dcm\Dcm\bin\System.Web.Mvc.xml
+C:\WebApps\DCM\Dcm\Dcm\bin\System.Web.Optimization.xml
+C:\WebApps\DCM\Dcm\Dcm\bin\System.Web.Razor.xml
+C:\WebApps\DCM\Dcm\Dcm\bin\System.Web.WebPages.xml
+C:\WebApps\DCM\Dcm\Dcm\bin\System.Web.WebPages.Deployment.xml
+C:\WebApps\DCM\Dcm\Dcm\bin\System.Web.WebPages.Razor.xml
+C:\WebApps\DCM\Dcm\Dcm\bin\Antlr3.Runtime.pdb
+C:\WebApps\DCM\Dcm\Dcm\bin\Zlib.Portable.xml
+C:\WebApps\DCM\Dcm\Dcm\bin\System.Net.Http.Formatting.xml
+C:\WebApps\DCM\Dcm\Dcm\bin\System.Web.Http.xml
+C:\WebApps\DCM\Dcm\Dcm\bin\System.Web.Http.WebHost.xml
+C:\WebApps\DCM\Dcm\Dcm\bin\EntityFramework.xml
+C:\WebApps\DCM\Dcm\Dcm\bin\EntityFramework.SqlServer.xml
+C:\WebApps\DCM\Dcm\Dcm\bin\Microsoft.AspNet.Identity.Core.xml
+C:\WebApps\DCM\Dcm\Dcm\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\WebApps\DCM\Dcm\Dcm\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\WebApps\DCM\Dcm\Dcm\bin\Microsoft.Owin.xml
+C:\WebApps\DCM\Dcm\Dcm\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\WebApps\DCM\Dcm\Dcm\bin\Microsoft.Owin.Security.xml
+C:\WebApps\DCM\Dcm\Dcm\bin\Microsoft.Owin.Security.Facebook.xml
+C:\WebApps\DCM\Dcm\Dcm\bin\Microsoft.Owin.Security.Cookies.xml
+C:\WebApps\DCM\Dcm\Dcm\bin\Microsoft.Owin.Security.OAuth.xml
+C:\WebApps\DCM\Dcm\Dcm\bin\Microsoft.Owin.Security.Google.xml
+C:\WebApps\DCM\Dcm\Dcm\bin\Microsoft.Owin.Security.Twitter.xml
+C:\WebApps\DCM\Dcm\Dcm\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\WebApps\DCM\Dcm\Dcm\obj\Debug\Dcm.csproj.App.config
+C:\WebApps\DCM\Dcm\Dcm\obj\Debug\Dcm.csprojResolveAssemblyReference.cache
+C:\WebApps\DCM\Dcm\Dcm\obj\Debug\Dcm.dll
+C:\WebApps\DCM\Dcm\Dcm\obj\Debug\Dcm.pdb
+C:\WebApps\DCM\Dcm\Dcm\bin\BaseDB.dll.config
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Dcm.dll.config
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Dcm.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Dcm.pdb
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Antlr3.Runtime.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\BaseClasses.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\BaseDB.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\EntityFramework.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\EntityFramework.SqlServer.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Google.Apis.Auth.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Google.Apis.Auth.PlatformServices.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Google.Apis.Core.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Google.Apis.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Google.Apis.Drive.v2.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Google.Apis.PlatformServices.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\log4net.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Microsoft.Owin.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Microsoft.Owin.Security.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Microsoft.Owin.Security.Google.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Microsoft.ReportViewer.WebForms.DLL
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Microsoft.Threading.Tasks.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Microsoft.Threading.Tasks.Extensions.Desktop.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Microsoft.Threading.Tasks.Extensions.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Microsoft.Web.Infrastructure.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Newtonsoft.Json.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Owin.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\ReportViewerForMvc.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\System.Net.Http.Extensions.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\System.Net.Http.Formatting.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\System.Net.Http.Primitives.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\System.Web.Helpers.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\System.Web.Http.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\System.Web.Http.WebHost.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\System.Web.Mvc.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\System.Web.Optimization.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\System.Web.Razor.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\System.Web.WebPages.Deployment.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\System.Web.WebPages.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\System.Web.WebPages.Razor.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\WebGrease.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Zlib.Portable.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\BaseClasses.pdb
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\BaseDB.pdb
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\BaseDB.dll.config
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Google.Apis.pdb
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Google.Apis.xml
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Google.Apis.Auth.pdb
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Google.Apis.Auth.xml
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Google.Apis.Auth.PlatformServices.pdb
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Google.Apis.Auth.PlatformServices.xml
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Google.Apis.Core.pdb
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Google.Apis.Core.xml
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Google.Apis.Drive.v2.pdb
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Google.Apis.Drive.v2.xml
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Google.Apis.PlatformServices.pdb
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Google.Apis.PlatformServices.xml
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\log4net.xml
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Microsoft.Threading.Tasks.xml
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Microsoft.Threading.Tasks.Extensions.xml
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Microsoft.Threading.Tasks.Extensions.Desktop.xml
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Newtonsoft.Json.xml
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\System.Net.Http.Extensions.xml
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\System.Net.Http.Primitives.xml
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\System.Web.Helpers.xml
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\System.Web.Mvc.xml
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\System.Web.Optimization.xml
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\System.Web.Razor.xml
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\System.Web.WebPages.xml
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\System.Web.WebPages.Deployment.xml
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\System.Web.WebPages.Razor.xml
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Antlr3.Runtime.pdb
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Zlib.Portable.xml
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\System.Net.Http.Formatting.xml
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\System.Web.Http.xml
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\System.Web.Http.WebHost.xml
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\EntityFramework.xml
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\EntityFramework.SqlServer.xml
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Microsoft.Owin.xml
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Microsoft.Owin.Security.xml
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Microsoft.Owin.Security.Google.xml
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\obj\Debug\Dcm.csproj.App.config
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\obj\Debug\Dcm.csprojResolveAssemblyReference.cache
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\obj\Debug\Dcm.dll
+C:\Data\Codester\Code V.03 & DB_Scripts\DcmCode\Code V.03\Dcm\obj\Debug\Dcm.pdb

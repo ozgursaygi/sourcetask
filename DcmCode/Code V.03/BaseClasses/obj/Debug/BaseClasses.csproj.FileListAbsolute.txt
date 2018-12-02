@@ -1,0 +1,10 @@
+C:\WebApps\DCM\Dcm\BaseClasses\bin\Debug\BaseClasses.dll
+C:\WebApps\DCM\Dcm\BaseClasses\bin\Debug\BaseClasses.pdb
+C:\WebApps\DCM\Dcm\BaseClasses\bin\Debug\BaseDB.dll
+C:\WebApps\DCM\Dcm\BaseClasses\bin\Debug\EntityFramework.dll
+C:\WebApps\DCM\Dcm\BaseClasses\bin\Debug\BaseDB.pdb
+C:\WebApps\DCM\Dcm\BaseClasses\bin\Debug\EntityFramework.xml
+C:\WebApps\DCM\Dcm\BaseClasses\obj\Debug\BaseClasses.csprojResolveAssemblyReference.cache
+C:\WebApps\DCM\Dcm\BaseClasses\obj\Debug\BaseClasses.dll
+C:\WebApps\DCM\Dcm\BaseClasses\obj\Debug\BaseClasses.pdb
+C:\WebApps\DCM\Dcm\BaseClasses\bin\Debug\BaseDB.dll.config

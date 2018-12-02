@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GenelModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="gnl_logged_in_users">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="type" Type="varchar" MaxLength="50" />
+    <Property Name="user_uid" Type="uniqueidentifier" />
+    <Property Name="user_name" Type="varchar" MaxLength="50" />
+    <Property Name="user_name_surname" Type="varchar" MaxLength="50" />
+    <Property Name="date" Type="datetime" />
+    <Property Name="session_id" Type="varchar" MaxLength="50" />
+    <Property Name="host_name" Type="varchar" MaxLength="50" />
+    <Property Name="user_host_adres" Type="varchar" MaxLength="50" />
+    <Property Name="browser" Type="varchar" MaxLength="50" />
+    <Property Name="platform" Type="varchar" MaxLength="50" />
+    <Property Name="version" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="gnl_menu">
+    <Key>
+      <PropertyRef Name="menu_id" />
+    </Key>
+    <Property Name="menu_id" Type="int" Nullable="false" />
+    <Property Name="parent_menu_id" Type="int" />
+    <Property Name="name" Type="varchar" MaxLength="50" />
+    <Property Name="menu_order" Type="int" />
+    <Property Name="primary_key" Type="nvarchar" MaxLength="50" />
+    <Property Name="table_name" Type="nvarchar" MaxLength="50" />
+    <Property Name="object_name" Type="nvarchar" MaxLength="100" />
+    <Property Name="show_columns" Type="nvarchar" MaxLength="1000" />
+    <Property Name="detail_page_url" Type="nvarchar" MaxLength="250" />
+    <Property Name="detail_update_button" Type="smallint" />
+    <Property Name="detail_delete_button" Type="smallint" />
+    <Property Name="list_detail_button" Type="smallint" />
+    <Property Name="list_new_record_button" Type="smallint" />
+    <Property Name="show_in_menu" Type="smallint" />
+    <Property Name="filter" Type="nvarchar" MaxLength="2000" />
+    <Property Name="report_url" Type="nvarchar" MaxLength="100" />
+    <Property Name="only_detail_page" Type="nvarchar" MaxLength="2" />
+    <Property Name="icon_class" Type="nvarchar" MaxLength="100" />
+    <Property Name="hide_columns" Type="nvarchar" MaxLength="1000" />
+    <Property Name="order_by" Type="nvarchar" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="gnl_notifications">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="notification_id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="notification_type" Type="int" />
+    <Property Name="notification_module_type" Type="int" />
+    <Property Name="related_record_id" Type="uniqueidentifier" />
+    <Property Name="notification_user_id" Type="uniqueidentifier" />
+    <Property Name="notification_title" Type="nvarchar" MaxLength="4000" />
+    <Property Name="notification_body" Type="text" />
+    <Property Name="notification_created_date" Type="datetime" />
+    <Property Name="notification_shown" Type="bit" />
+    <Property Name="notification_shown_date" Type="datetime" />
+    <Property Name="inserted_by" Type="uniqueidentifier" />
+    <Property Name="inserted_at" Type="datetime" />
+    <Property Name="updated_by" Type="uniqueidentifier" />
+    <Property Name="updated_at" Type="datetime" />
+    <Property Name="deleted_by" Type="uniqueidentifier" />
+    <Property Name="deleted_at" Type="datetime" />
+  </EntityType>
+  <EntityType Name="gnl_role_rights">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="menu_id" Type="int" />
+    <Property Name="role_id" Type="uniqueidentifier" />
+    <Property Name="menu_right" Type="bit" />
+    <Property Name="update_right" Type="bit" />
+    <Property Name="delete_right" Type="bit" />
+    <Property Name="report_right" Type="bit" />
+    <Property Name="new_record_right" Type="bit" />
+  </EntityType>
+  <EntityType Name="gnl_roles">
+    <Key>
+      <PropertyRef Name="role_id" />
+    </Key>
+    <Property Name="role_id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="role_name" Type="nvarchar" MaxLength="50" />
+    <Property Name="role_explanation" Type="nvarchar" MaxLength="200" />
+    <Property Name="is_active" Type="bit" />
+    <Property Name="inserted_by" Type="uniqueidentifier" />
+    <Property Name="inserted_at" Type="datetime" />
+    <Property Name="updated_by" Type="uniqueidentifier" />
+    <Property Name="updated_at" Type="datetime" />
+    <Property Name="is_deleted" Type="bit" />
+    <Property Name="deleted_by" Type="uniqueidentifier" />
+    <Property Name="deleted_at" Type="datetime" />
+  </EntityType>
+  <EntityType Name="gnl_roles_related_users">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="role_id" Type="uniqueidentifier" />
+    <Property Name="user_id" Type="uniqueidentifier" />
+  </EntityType>
+  <EntityType Name="gnl_user_groups">
+    <Key>
+      <PropertyRef Name="group_id" />
+    </Key>
+    <Property Name="group_id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="group_name" Type="nvarchar" MaxLength="50" />
+    <Property Name="group_explanation" Type="nvarchar" MaxLength="200" />
+    <Property Name="manager_id" Type="uniqueidentifier" />
+    <Property Name="is_active" Type="bit" />
+    <Property Name="inserted_by" Type="uniqueidentifier" />
+    <Property Name="inserted_at" Type="datetime" />
+    <Property Name="updated_by" Type="uniqueidentifier" />
+    <Property Name="updated_at" Type="datetime" />
+    <Property Name="is_deleted" Type="bit" />
+    <Property Name="deleted_by" Type="uniqueidentifier" />
+    <Property Name="deleted_at" Type="datetime" />
+  </EntityType>
+  <EntityType Name="gnl_users">
+    <Key>
+      <PropertyRef Name="user_id" />
+    </Key>
+    <Property Name="user_id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="user_name" Type="nvarchar" MaxLength="50" />
+    <Property Name="password" Type="nvarchar" MaxLength="50" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" />
+    <Property Name="second_name" Type="nvarchar" MaxLength="50" />
+    <Property Name="surname" Type="nvarchar" MaxLength="50" />
+    <Property Name="second_surname" Type="nvarchar" MaxLength="50" />
+    <Property Name="start_date" Type="datetime" />
+    <Property Name="end_date" Type="datetime" />
+    <Property Name="email" Type="nvarchar" MaxLength="100" />
+    <Property Name="identity_number" Type="nvarchar" MaxLength="50" />
+    <Property Name="mobile_phone" Type="nvarchar" MaxLength="50" />
+    <Property Name="home_phone" Type="nvarchar" MaxLength="50" />
+    <Property Name="adress" Type="nvarchar" MaxLength="2000" />
+    <Property Name="birth_date" Type="datetime" />
+    <Property Name="photo" Type="image" />
+    <Property Name="cropped_photo" Type="image" />
+    <Property Name="note" Type="nvarchar" MaxLength="4000" />
+    <Property Name="is_active" Type="bit" />
+    <Property Name="is_deleted" Type="bit" />
+    <Property Name="inserted_by" Type="uniqueidentifier" />
+    <Property Name="inserted_at" Type="datetime" />
+    <Property Name="updated_by" Type="uniqueidentifier" />
+    <Property Name="updated_at" Type="datetime" />
+    <Property Name="deleted_by" Type="uniqueidentifier" />
+    <Property Name="deleted_at" Type="datetime" />
+    <Property Name="group_id" Type="uniqueidentifier" />
+    <Property Name="manager_id" Type="uniqueidentifier" />
+    <Property Name="is_administrator" Type="bit" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'DCM.dbo.gnl_role_related_users_v' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="gnl_role_related_users_v">
+    <Key>
+      <PropertyRef Name="role_id" />
+      <PropertyRef Name="user_id" />
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="role_id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="user_id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="role_name" Type="nvarchar" MaxLength="50" />
+    <Property Name="name" Type="nvarchar" MaxLength="50" />
+    <Property Name="surname" Type="nvarchar" MaxLength="50" />
+    <Property Name="email" Type="nvarchar" MaxLength="100" />
+    <Property Name="id" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityContainer Name="GenelModelStoreContainer">
+    <EntitySet Name="gnl_logged_in_users" EntityType="Self.gnl_logged_in_users" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="gnl_menu" EntityType="Self.gnl_menu" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="gnl_notifications" EntityType="Self.gnl_notifications" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="gnl_role_rights" EntityType="Self.gnl_role_rights" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="gnl_roles" EntityType="Self.gnl_roles" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="gnl_roles_related_users" EntityType="Self.gnl_roles_related_users" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="gnl_user_groups" EntityType="Self.gnl_user_groups" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="gnl_users" EntityType="Self.gnl_users" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="gnl_role_related_users_v" EntityType="Self.gnl_role_related_users_v" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [gnl_role_related_users_v].[role_id] AS [role_id], 
+    [gnl_role_related_users_v].[user_id] AS [user_id], 
+    [gnl_role_related_users_v].[role_name] AS [role_name], 
+    [gnl_role_related_users_v].[name] AS [name], 
+    [gnl_role_related_users_v].[surname] AS [surname], 
+    [gnl_role_related_users_v].[email] AS [email], 
+    [gnl_role_related_users_v].[id] AS [id]
+    FROM [dbo].[gnl_role_related_users_v] AS [gnl_role_related_users_v]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>

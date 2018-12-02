@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="TaskModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="TaskEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ref_tsk_task_priority" EntityType="TaskModel.ref_tsk_task_priority" />
+    <EntitySet Name="ref_tsk_task_status" EntityType="TaskModel.ref_tsk_task_status" />
+    <EntitySet Name="tsk_tasks_history" EntityType="TaskModel.tsk_tasks_history" />
+    <EntitySet Name="tsk_task_history_v" EntityType="TaskModel.tsk_task_history_v" />
+    <EntitySet Name="tsk_tasks" EntityType="TaskModel.tsk_tasks" />
+    <EntitySet Name="tsk_tasks_v" EntityType="TaskModel.tsk_tasks_v" />
+  </EntityContainer>
+  <EntityType Name="ref_tsk_task_priority">
+    <Key>
+      <PropertyRef Name="task_priority_id" />
+    </Key>
+    <Property Name="task_priority_id" Type="Int32" Nullable="false" />
+    <Property Name="task_priority_name" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="ref_tsk_task_status">
+    <Key>
+      <PropertyRef Name="task_status_id" />
+    </Key>
+    <Property Name="task_status_id" Type="Int32" Nullable="false" />
+    <Property Name="task_status_name" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tsk_tasks_history">
+    <Key>
+      <PropertyRef Name="history_id" />
+    </Key>
+    <Property Name="history_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="task_id" Type="Guid" Nullable="false" />
+    <Property Name="related_project_id" Type="Guid" Nullable="false" />
+    <Property Name="assigned_user_id" Type="Guid" Nullable="false" />
+    <Property Name="task_type_id" Type="Int32" />
+    <Property Name="task_status_id" Type="Int32" Nullable="false" />
+    <Property Name="task_priority_id" Type="Int32" Nullable="false" />
+    <Property Name="task_name" Type="String" Nullable="false" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="task_description" Type="String" Nullable="false" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="start_date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="end_date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="history_by" Type="Guid" />
+    <Property Name="history_at" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tsk_task_history_v">
+    <Key>
+      <PropertyRef Name="history_id" />
+      <PropertyRef Name="task_id" />
+      <PropertyRef Name="task_name" />
+    </Key>
+    <Property Name="history_id" Type="Int32" Nullable="false" />
+    <Property Name="task_id" Type="Guid" Nullable="false" />
+    <Property Name="task_name" Type="String" Nullable="false" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="task_status_name" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="assigned_user_name" Type="String" MaxLength="101" FixedLength="false" Unicode="true" />
+    <Property Name="updated_user" Type="String" MaxLength="101" FixedLength="false" Unicode="true" />
+    <Property Name="task_priority_name" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="history_at" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="tsk_tasks">
+    <Key>
+      <PropertyRef Name="task_id" />
+    </Key>
+    <Property Name="task_id" Type="Guid" Nullable="false" />
+    <Property Name="order_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="related_project_id" Type="Guid" Nullable="false" />
+    <Property Name="task_user_id" Type="Guid" Nullable="false" />
+    <Property Name="assigned_user_id" Type="Guid" Nullable="false" />
+    <Property Name="task_type_id" Type="Int32" />
+    <Property Name="task_status_id" Type="Int32" Nullable="false" />
+    <Property Name="task_priority_id" Type="Int32" Nullable="false" />
+    <Property Name="task_name" Type="String" Nullable="false" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="task_description" Type="String" Nullable="false" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="explanations" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="start_date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="end_date" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="is_task_sent" Type="Boolean" />
+    <Property Name="is_active" Type="Boolean" />
+    <Property Name="is_deleted" Type="Boolean" />
+    <Property Name="inserted_by" Type="Guid" />
+    <Property Name="inserted_at" Type="DateTime" Precision="3" />
+    <Property Name="updated_by" Type="Guid" />
+    <Property Name="updated_at" Type="DateTime" Precision="3" />
+    <Property Name="deleted_by" Type="Guid" />
+    <Property Name="deleted_at" Type="DateTime" Precision="3" />
+    <Property Name="task_completed_date" Type="DateTime" Precision="3" />
+    <Property Name="task_completed_by" Type="Guid" />
+  </EntityType>
+  <EntityType Name="tsk_tasks_v">
+    <Key>
+      <PropertyRef Name="task_id" />
+      <PropertyRef Name="task_name" />
+      <PropertyRef Name="start_date1" />
+      <PropertyRef Name="end_date1" />
+      <PropertyRef Name="is_active" />
+      <PropertyRef Name="task_user_id" />
+      <PropertyRef Name="assigned_user_id" />
+      <PropertyRef Name="task_status_id" />
+      <PropertyRef Name="order_id" />
+    </Key>
+    <Property Name="task_id" Type="Guid" Nullable="false" />
+    <Property Name="task_name" Type="String" Nullable="false" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="task_priority_name" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="task_status_name" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="project_name" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="assigned_user_name" Type="String" MaxLength="101" FixedLength="false" Unicode="true" />
+    <Property Name="task_owner" Type="String" MaxLength="101" FixedLength="false" Unicode="true" />
+    <Property Name="start_date" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="start_date1" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="end_date1" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="end_date" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="is_active" Type="String" Nullable="false" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="task_user_id" Type="Guid" Nullable="false" />
+    <Property Name="assigned_user_id" Type="Guid" Nullable="false" />
+    <Property Name="task_status_id" Type="Int32" Nullable="false" />
+    <Property Name="is_active_bit" Type="Boolean" />
+    <Property Name="order_id" Type="Int32" Nullable="false" />
+  </EntityType>
+</Schema>

@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GenelModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="GenelEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="gnl_menu" EntityType="GenelModel.gnl_menu" />
+    <EntitySet Name="gnl_roles_related_users" EntityType="GenelModel.gnl_roles_related_users" />
+    <EntitySet Name="gnl_role_related_users_v" EntityType="GenelModel.gnl_role_related_users_v" />
+    <EntitySet Name="gnl_roles" EntityType="GenelModel.gnl_roles" />
+    <EntitySet Name="gnl_logged_in_users" EntityType="GenelModel.gnl_logged_in_users" />
+    <EntitySet Name="gnl_user_groups" EntityType="GenelModel.gnl_user_groups" />
+    <EntitySet Name="gnl_users" EntityType="GenelModel.gnl_users" />
+    <EntitySet Name="gnl_role_rights" EntityType="GenelModel.gnl_role_rights" />
+    <EntitySet Name="gnl_notifications" EntityType="GenelModel.gnl_notifications" />
+  </EntityContainer>
+  <EntityType Name="gnl_menu">
+    <Key>
+      <PropertyRef Name="menu_id" />
+    </Key>
+    <Property Name="menu_id" Type="Int32" Nullable="false" />
+    <Property Name="parent_menu_id" Type="Int32" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="menu_order" Type="Int32" />
+    <Property Name="primary_key" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="table_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="object_name" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="hide_columns" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="detail_page_url" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="detail_update_button" Type="Int16" />
+    <Property Name="detail_delete_button" Type="Int16" />
+    <Property Name="list_detail_button" Type="Int16" />
+    <Property Name="list_new_record_button" Type="Int16" />
+    <Property Name="show_in_menu" Type="Int16" />
+    <Property Name="filter" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="report_url" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="only_detail_page" Type="String" MaxLength="2" FixedLength="false" Unicode="true" />
+    <Property Name="icon_class" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="show_columns" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="order_by" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="gnl_roles_related_users">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="role_id" Type="Guid" />
+    <Property Name="user_id" Type="Guid" />
+  </EntityType>
+  <EntityType Name="gnl_role_related_users_v">
+    <Key>
+      <PropertyRef Name="role_id" />
+      <PropertyRef Name="user_id" />
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="role_id" Type="Guid" Nullable="false" />
+    <Property Name="user_id" Type="Guid" Nullable="false" />
+    <Property Name="role_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="surname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="email" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="id" Type="Int32" Nullable="false" />
+  </EntityType>
+  <EntityType Name="gnl_roles">
+    <Key>
+      <PropertyRef Name="role_id" />
+    </Key>
+    <Property Name="role_id" Type="Guid" Nullable="false" />
+    <Property Name="role_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="role_explanation" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="is_active" Type="Boolean" />
+    <Property Name="inserted_by" Type="Guid" />
+    <Property Name="inserted_at" Type="DateTime" Precision="3" />
+    <Property Name="updated_by" Type="Guid" />
+    <Property Name="updated_at" Type="DateTime" Precision="3" />
+    <Property Name="is_deleted" Type="Boolean" />
+    <Property Name="deleted_by" Type="Guid" />
+    <Property Name="deleted_at" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="gnl_logged_in_users">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="user_uid" Type="Guid" />
+    <Property Name="user_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="user_name_surname" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="date" Type="DateTime" Precision="3" />
+    <Property Name="session_id" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="host_name" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="user_host_adres" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="browser" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="platform" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="version" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="gnl_user_groups">
+    <Key>
+      <PropertyRef Name="group_id" />
+    </Key>
+    <Property Name="group_id" Type="Guid" Nullable="false" />
+    <Property Name="group_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="group_explanation" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="manager_id" Type="Guid" />
+    <Property Name="is_active" Type="Boolean" />
+    <Property Name="inserted_by" Type="Guid" />
+    <Property Name="inserted_at" Type="DateTime" Precision="3" />
+    <Property Name="updated_by" Type="Guid" />
+    <Property Name="updated_at" Type="DateTime" Precision="3" />
+    <Property Name="is_deleted" Type="Boolean" />
+    <Property Name="deleted_by" Type="Guid" />
+    <Property Name="deleted_at" Type="DateTime" Precision="3" />
+  </EntityType>
+  <EntityType Name="gnl_users">
+    <Key>
+      <PropertyRef Name="user_id" />
+    </Key>
+    <Property Name="user_id" Type="Guid" Nullable="false" />
+    <Property Name="user_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="second_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="surname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="second_surname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="start_date" Type="DateTime" Precision="3" />
+    <Property Name="end_date" Type="DateTime" Precision="3" />
+    <Property Name="email" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="identity_number" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="mobile_phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="home_phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="adress" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="birth_date" Type="DateTime" Precision="3" />
+    <Property Name="photo" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="cropped_photo" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="note" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="is_active" Type="Boolean" />
+    <Property Name="is_deleted" Type="Boolean" />
+    <Property Name="inserted_by" Type="Guid" />
+    <Property Name="inserted_at" Type="DateTime" Precision="3" />
+    <Property Name="updated_by" Type="Guid" />
+    <Property Name="updated_at" Type="DateTime" Precision="3" />
+    <Property Name="deleted_by" Type="Guid" />
+    <Property Name="deleted_at" Type="DateTime" Precision="3" />
+    <Property Name="group_id" Type="Guid" />
+    <Property Name="manager_id" Type="Guid" />
+    <Property Name="is_administrator" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="gnl_role_rights">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="menu_id" Type="Int32" />
+    <Property Name="role_id" Type="Guid" />
+    <Property Name="menu_right" Type="Boolean" />
+    <Property Name="update_right" Type="Boolean" />
+    <Property Name="delete_right" Type="Boolean" />
+    <Property Name="report_right" Type="Boolean" />
+    <Property Name="new_record_right" Type="Boolean" />
+  </EntityType>
+  <EntityType Name="gnl_notifications">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="notification_id" Type="Guid" Nullable="false" />
+    <Property Name="notification_type" Type="Int32" />
+    <Property Name="notification_module_type" Type="Int32" />
+    <Property Name="related_record_id" Type="Guid" />
+    <Property Name="notification_user_id" Type="Guid" />
+    <Property Name="notification_title" Type="String" MaxLength="4000" FixedLength="false" Unicode="true" />
+    <Property Name="notification_body" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="notification_created_date" Type="DateTime" Precision="3" />
+    <Property Name="notification_shown" Type="Boolean" />
+    <Property Name="notification_shown_date" Type="DateTime" Precision="3" />
+    <Property Name="inserted_by" Type="Guid" />
+    <Property Name="inserted_at" Type="DateTime" Precision="3" />
+    <Property Name="updated_by" Type="Guid" />
+    <Property Name="updated_at" Type="DateTime" Precision="3" />
+    <Property Name="deleted_by" Type="Guid" />
+    <Property Name="deleted_at" Type="DateTime" Precision="3" />
+  </EntityType>
+</Schema>

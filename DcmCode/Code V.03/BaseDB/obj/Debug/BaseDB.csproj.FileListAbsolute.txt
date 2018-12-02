@@ -1,0 +1,9 @@
+C:\WebApps\DCM\Dcm\BaseDB\bin\Debug\BaseDB.dll.config
+C:\WebApps\DCM\Dcm\BaseDB\bin\Debug\BaseDB.dll
+C:\WebApps\DCM\Dcm\BaseDB\bin\Debug\BaseDB.pdb
+C:\WebApps\DCM\Dcm\BaseDB\bin\Debug\EntityFramework.dll
+C:\WebApps\DCM\Dcm\BaseDB\bin\Debug\EntityFramework.SqlServer.dll
+C:\WebApps\DCM\Dcm\BaseDB\bin\Debug\EntityFramework.xml
+C:\WebApps\DCM\Dcm\BaseDB\bin\Debug\EntityFramework.SqlServer.xml
+C:\WebApps\DCM\Dcm\BaseDB\obj\Debug\BaseDB.dll
+C:\WebApps\DCM\Dcm\BaseDB\obj\Debug\BaseDB.pdb

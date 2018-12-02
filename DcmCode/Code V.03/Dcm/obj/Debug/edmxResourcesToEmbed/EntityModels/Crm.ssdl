@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DCMModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="crm_bireyler">
+    <Key>
+      <PropertyRef Name="birey_id" />
+    </Key>
+    <Property Name="birey_id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="calistigi_kurum_id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="ad" Type="nvarchar" MaxLength="50" />
+    <Property Name="soyad" Type="nvarchar" MaxLength="50" />
+    <Property Name="turu_id" Type="int" />
+    <Property Name="eposta_adresi" Type="nvarchar" MaxLength="100" />
+    <Property Name="mobile_phone" Type="nvarchar" MaxLength="50" />
+    <Property Name="telefonu_1" Type="nvarchar" MaxLength="50" />
+    <Property Name="telefonu_2" Type="nvarchar" MaxLength="50" />
+    <Property Name="faksi_1" Type="nvarchar" MaxLength="50" />
+    <Property Name="faksi_2" Type="nvarchar" MaxLength="50" />
+    <Property Name="adres" Type="nvarchar" MaxLength="2000" />
+    <Property Name="web_sitesi" Type="nvarchar" MaxLength="50" />
+    <Property Name="note" Type="nvarchar" MaxLength="4000" />
+    <Property Name="is_active" Type="bit" />
+    <Property Name="is_deleted" Type="bit" />
+    <Property Name="inserted_by" Type="uniqueidentifier" />
+    <Property Name="inserted_at" Type="datetime" />
+    <Property Name="updated_by" Type="uniqueidentifier" />
+    <Property Name="updated_at" Type="datetime" />
+    <Property Name="deleted_by" Type="uniqueidentifier" />
+    <Property Name="deleted_at" Type="datetime" />
+  </EntityType>
+  <EntityType Name="crm_kurumlar">
+    <Key>
+      <PropertyRef Name="kurum_id" />
+    </Key>
+    <Property Name="kurum_id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="kodu" Type="nvarchar" MaxLength="500" />
+    <Property Name="turu_id" Type="int" />
+    <Property Name="ticari_unvani" Type="nvarchar" MaxLength="1000" />
+    <Property Name="vergi_no" Type="nvarchar" MaxLength="50" />
+    <Property Name="vergi_dairesi" Type="nvarchar" MaxLength="100" />
+    <Property Name="kurulus_yili" Type="int" />
+    <Property Name="calisan_sayisi" Type="int" />
+    <Property Name="eposta_adresi" Type="nvarchar" MaxLength="100" />
+    <Property Name="telefonu_1" Type="nvarchar" MaxLength="50" />
+    <Property Name="telefonu_2" Type="nvarchar" MaxLength="50" />
+    <Property Name="faksi_1" Type="nvarchar" MaxLength="50" />
+    <Property Name="faksi_2" Type="nvarchar" MaxLength="50" />
+    <Property Name="adres" Type="nvarchar" MaxLength="2000" />
+    <Property Name="web_sitesi" Type="nvarchar" MaxLength="50" />
+    <Property Name="note" Type="nvarchar" MaxLength="4000" />
+    <Property Name="is_active" Type="bit" />
+    <Property Name="is_deleted" Type="bit" />
+    <Property Name="inserted_by" Type="uniqueidentifier" />
+    <Property Name="inserted_at" Type="datetime" />
+    <Property Name="updated_by" Type="uniqueidentifier" />
+    <Property Name="updated_at" Type="datetime" />
+    <Property Name="deleted_by" Type="uniqueidentifier" />
+    <Property Name="deleted_at" Type="datetime" />
+    <Property Name="mobile_phone" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="crm_projects">
+    <Key>
+      <PropertyRef Name="project_id" />
+    </Key>
+    <Property Name="project_id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="kurum_id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="birey_id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="project_type_id" Type="int" Nullable="false" />
+    <Property Name="project_assigned_user_id" Type="uniqueidentifier" />
+    <Property Name="project_name" Type="nvarchar" MaxLength="2000" Nullable="false" />
+    <Property Name="project_description" Type="nvarchar" MaxLength="4000" Nullable="false" />
+    <Property Name="note" Type="nvarchar" MaxLength="4000" />
+    <Property Name="is_active" Type="bit" />
+    <Property Name="is_deleted" Type="bit" />
+    <Property Name="inserted_by" Type="uniqueidentifier" />
+    <Property Name="inserted_at" Type="datetime" />
+    <Property Name="updated_by" Type="uniqueidentifier" />
+    <Property Name="updated_at" Type="datetime" />
+    <Property Name="deleted_by" Type="uniqueidentifier" />
+    <Property Name="deleted_at" Type="datetime" />
+    <Property Name="statik" Type="uniqueidentifier" />
+    <Property Name="elektrik" Type="uniqueidentifier" />
+    <Property Name="mekanik" Type="uniqueidentifier" />
+    <Property Name="harita" Type="uniqueidentifier" />
+    <Property Name="yapı_denetimi" Type="uniqueidentifier" />
+    <Property Name="isveren_mobile_phone" Type="nvarchar" MaxLength="50" />
+    <Property Name="metre_kare" Type="decimal" Precision="18" Scale="2" />
+  </EntityType>
+  <EntityType Name="ref_crm_project_types">
+    <Key>
+      <PropertyRef Name="project_type_id" />
+    </Key>
+    <Property Name="project_type_id" Type="int" Nullable="false" />
+    <Property Name="project_type_name" Type="nvarchar" MaxLength="200" Nullable="false" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'DCM.dbo.crm_bireyler_kurumlar_v' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="crm_bireyler_kurumlar_v">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="uniqueidentifier" Nullable="false" />
+    <Property Name="name" Type="nvarchar" MaxLength="500" />
+    <Property Name="is_active" Type="bit" />
+  </EntityType>
+  <EntityContainer Name="DCMModelStoreContainer">
+    <EntitySet Name="crm_bireyler" EntityType="Self.crm_bireyler" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="crm_kurumlar" EntityType="Self.crm_kurumlar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="crm_projects" EntityType="Self.crm_projects" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ref_crm_project_types" EntityType="Self.ref_crm_project_types" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="crm_bireyler_kurumlar_v" EntityType="Self.crm_bireyler_kurumlar_v" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [crm_bireyler_kurumlar_v].[id] AS [id], 
+    [crm_bireyler_kurumlar_v].[name] AS [name], 
+    [crm_bireyler_kurumlar_v].[is_active] AS [is_active]
+    FROM [dbo].[crm_bireyler_kurumlar_v] AS [crm_bireyler_kurumlar_v]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>
